@@ -1,0 +1,57 @@
+.box{
+    border: 1px solid #808080;
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+    width: 450px;
+    height: fit-content;
+    padding: 10px 15px;
+    margin: 20px auto;
+    border-radius: 14px;
+}
+
+.Ltxt{
+    font-size: 22px;
+    color: black;
+    font-weight: normal;
+    padding-bottom: 10px;
+    padding: 10px;
+    line-height: 0.01;
+}
+
+.Stxt{
+    font-size: 18px;
+    color: grey;
+    padding: 10px;
+    font-weight: normal;
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+.bluetxt{
+    color: dodgerblue;
+    font-size: 16px;
+    font-weight: light;
+    padding-left: 5px;
+}
+
+.imgbox{
+    display: flex;
+    padding: 15px 30px;
+    padding-bottom: 15px;
+}
+
+.imgbox img{
+    width: 80px;
+    margin-right: 80px;
+}
+
+.imgbox img:last-child {
+    margin-right: 0;
+}
+
+.profileimg{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}

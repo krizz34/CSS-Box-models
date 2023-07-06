@@ -1,0 +1,74 @@
+.box{
+    border: 1px solid grey;
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+    width: 450px;
+    height: fit-content;
+    margin: 20px auto;
+    border-radius: 14px;
+}
+
+.big-img{
+    width: 100%;
+    object-fit: contain;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.Ltxt{
+    font-size: 32px;
+    color: black;
+    font-weight: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.1;
+}
+
+.Stxt{
+    font-size: 21px;
+    color: grey;
+    margin-left: 20px;
+    margin-right: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.btn{
+    background-color: white;
+    color: dodgerblue;
+    font-size: 18px;
+    font-weight: lighter;
+    font-weight: bold;
+    border: 1px solid grey;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.lock-contain{
+    display: flex;
+    align-items: left;
+    size: 80px;
+    margin-left: 20px;
+}
+
+.lock-contain img{
+    width: 20px;
+    height: 20px;
+    margin-top: 21px;
+    margin-right: 15px;
+}
+
+.lock-contain .lock-txt{
+    margin-top: 10px;
+    margin-left: 18px;
+    color: grey;
+    font-family: sans-serif;
+    font-weight: light;
+    font-size: 20px;
+}
